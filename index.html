@@ -3,12 +3,106 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Kugo</title>
 </head>
 <body>
+  <nav class="navbar">
+    <div class="header-top">
+    <ul class="header-nav">
+      <li class="header-nav-item">
+        <a href="./about.php" class="header-nav-link">Сервис</a>
+      </li>
+
+      <li class="header-nav-item">
+        <a href="./contracts.php" class="header-nav-link">Сотрудничество</a>
+      </li>
+
+      <li class="header-nav-item">
+        <a href="./trademarks.php" class="header-nav-link">Заказать звонок</a>
+      </li>
+
+      <li class="header-nav-icons">
+        <a href="./" class="header-nav-icon">
+          <svg class="header-top-icon" width="12px" height="12px">
+            <use href="img/sprite.svg#viber 1"></use>
+          </svg>
+        </a>
+        <a href="./" class="header-nav-icon">
+          <svg class="header-top-icon" width="12px" height="12px">
+            <use href="img/sprite.svg#003-whatsapp 1"></use>
+          </svg>
+        </a>
+        <a href="./" class="header-nav-icon">
+          <svg class="header-top-icon" width="12px" height="12px">
+            <use href="img/sprite.svg#003-telegram 1"></use>
+          </svg>
+        </a>
+
+      </li>
+</ul>
+    <div class="header-phone">
+      <a href="tel:+78005055461" class="header-phone-link">+7 (800) 505-54-61</a>
+    </div> <!-- /.header-phone -->
+  </div><!-- /.header-top -->
+
+  <div class="header-bottom">
+    <a href="./" class="header-logo">KUGOO</a>
+      <button class="header-button" data-toggle="modal" data-target="#feedback-modal">
+        <div class="button-lines">
+          <div class="button-line"></div>
+          <div class="button-line"></div>
+          <div class="button-line"></div>
+        </div>
+      <span class="button-text">Каталог</span>
+     </button>
+
+     <form class="header-search" method="get">
+      <input class="search" name="s" placeholder="Искать самокат KUGO" type="search">
+      <button class="search-button" type="submit">
+        <svg class="search-icon" width="16px" height="16px">
+          <use href="img/sprite.svg#search"></use>
+        </svg>
+      </button>
+     </form>
+
+     <li class="header-nav-icons">
+      <a href="./" class="header-nav-icon">
+        <svg class="header-top-icon" width="20px" height="20px">
+          <use href="img/sprite.svg#weight"></use>
+        </svg>
+      </a>
+      <a href="./" class="header-nav-icon">
+        <svg class="header-top-icon" width="20px" height="20px">
+          <use href="img/sprite.svg#heart"></use>
+        </svg>
+      </a>
+      <a href="./" class="header-nav-icon">
+        <svg class="header-top-icon" width="20px" height="20px">
+          <use href="img/sprite.svg#basket"></use>
+        </svg>
+      <span class="icon-text">Корзина</span> </a>
+
+    </li>
+
+  </div>
+     
+  </nav>
+  <!-- /.navbar -->
+  <header class="header header-image">
+    
+    <div class="container">
+
+    </div>
+  </header>
   
+
   <script src="js/main.js"></script>
 </body>
 </html>
