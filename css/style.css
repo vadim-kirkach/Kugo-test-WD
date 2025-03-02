@@ -26,7 +26,8 @@ html {
 }
 
 .section {
-  padding: 0 1.875rem 0 1.875rem;
+  margin: 0 1.875rem 0 1.875rem;
+  max-width: 86.25rem;
 }
 
 
@@ -148,6 +149,7 @@ align-items: center;
   align-items: center;
   justify-content: start;
   padding: 0;
+  list-style: none;
 }
 
 .header-nav-icon {
@@ -200,7 +202,7 @@ text-decoration: none;
 }
 
 .header {
-  margin: 9.375rem 1.875rem 0 1.875rem;
+  margin: 9.375rem 1.875rem 4.5rem 1.875rem;
   height: 445px;
   max-width: 1380px;
   border-radius: 10px;
@@ -328,13 +330,84 @@ font-weight: 400;
 line-height: 18px;
 }
 
- .header-button {
-  padding: 15px 40px 15px 40px;
-  border-radius: 5px;
-  border: none;
-  color: rgb(111, 115, 238);
+.header-button {
+padding: 15px 40px 15px 40px;
+border-radius: 5px;
+border: none;
+color: rgb(111, 115, 238);
 font-family: 'Jost';
 font-size: 16px;
 font-weight: 400;
 line-height: 23px;
  }
+
+ .section-practice {
+  margin-bottom: 8.25rem;
+  position: relative;
+ }
+
+.section-content {
+  margin-left: 8.5rem;
+  max-width: 40.3125rem;
+}
+
+.section-title {
+ margin-top: 0;
+color: rgb(40, 39, 57);
+font-family: 'Jost';
+font-size: 35px;
+font-weight: 600;
+line-height: 51px;
+text-align: left;
+text-transform: uppercase;
+padding-top: 1.8rem;
+}
+
+.section-subtitle{
+color: rgb(40, 39, 57);
+font-family: 'Jost';
+font-size: 20px;
+font-weight: 400;
+line-height: 29px;
+}
+
+.test-drive-list{
+  font-size: 18px;
+  list-style: none;
+  padding-left: 0;
+
+}
+
+.test-drive-item {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-bottom: 1rem;
+}
+
+.test-drive-picture {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 515px;
+height: 422px;
+  border-radius: 5px;
+}
+
+.section-learn-driving {
+  display: flex;
+  gap: 6rem;
+
+}
+
+.learn-drive-picture {
+border-radius: 5px;
+  width: 515px;
+height: 463px;
+
+}
+
+.section-learn-content {
+  
+  max-width: 40.3125rem;
+}
