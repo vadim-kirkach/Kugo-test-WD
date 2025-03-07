@@ -1,13 +1,11 @@
 <?php 
 
-$user_name = htmlspecialchars($_POST["username"]);
 $user_phone = htmlspecialchars($_POST["userphone"]);
 
 $token = "7999513978:AAHrFmedXDvg0sFoiTm-fEIO_cFjKvIYX68";
 $chat_id = "-4657919459";
 
 $formData = array(
- "Клиент: " => $user_name,
   "Телефон: "=> $user_phone
 );
 

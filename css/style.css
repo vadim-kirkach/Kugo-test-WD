@@ -375,7 +375,6 @@ line-height: 29px;
   font-size: 18px;
   list-style: none;
   padding-left: 0;
-
 }
 
 .test-drive-item {
@@ -408,8 +407,11 @@ height: 463px;
 }
 
 .section-learn-content {
-  
   max-width: 40.3125rem;
+}
+
+.section-catalog {
+  margin-bottom: 6.1875rem;
 }
 
 .section-title-catalog {
@@ -593,3 +595,297 @@ width: 100%;
 padding: 10px;
 cursor: pointer;
 }
+
+.section-grey {
+margin: 0 1.875rem 6.25rem 1.875rem;
+max-width: 86.25rem;
+border-radius: 10px;
+background: rgb(244, 247, 251);
+height: 445px;
+position: relative;
+}
+
+.section-grey-content {
+max-width: 69.375rem;
+margin: auto;
+}
+
+.cta-form-wrapper {
+  max-width: 38.3125rem;
+  padding-top: 2rem;
+}
+
+.section-title-grey {
+color: rgb(40, 39, 57);
+font-family: 'Jost';
+font-size: 35px;
+font-weight: 600;
+line-height: 51px;
+text-transform: uppercase;
+margin-top: 3.6rem;
+margin-bottom: 2rem;
+}
+
+.section-subtitle-grey {
+  color: rgb(40, 39, 57);
+font-family: 'Jost';
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+margin-top: 0;
+margin-bottom: 22px;
+}
+
+.input-group-wrapper {
+  max-width: 33.8125rem;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form-button {
+  height: 3.3125rem;
+border-radius: 5px;
+padding: 15px 25px;
+background: rgb(111, 115, 238);
+border: none;
+color: rgb(255, 255, 255);
+font-family: 'Jost';
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+}
+
+.input-phone-mask {
+  border-radius: 5px;
+  padding-right: 25px;
+  width: 16.4375rem;
+  height: 3.3125rem;
+  outline: none;
+  border: 1px solid rgb(234, 235, 237);
+  padding-left: 30px;
+}
+
+.checkbox-wrapper {
+  max-width: 20.9375rem;
+}
+
+.check-input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.check-text {
+color: rgb(40, 39, 57);
+font-family: Jost;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0%;
+}
+
+.check-input+label {
+  display: flex;
+  max-width: 20.9375rem;
+  align-items: center;
+  user-select: none;
+}
+.check-input+label::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid rgb(234, 235, 237);
+  border-radius: 2px;
+  margin-right: 12px;
+  
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.check-input:checked+label::before {
+  background-color:#fff;
+  background-image: url(../img/check.svg);
+}
+
+.cta-image {
+position: absolute;
+bottom: 0;
+right: 181px;
+}
+
+.footer {
+  max-width: 90rem;
+}
+.footer-top {
+width: 100%;
+height: 6.225rem;
+background: rgb(111, 115, 238);
+padding-top: 1.525rem;
+margin-bottom: 1.9375rem;
+}
+
+.footer-top-content {
+  max-width: 69.375rem;
+  margin: auto;
+  display: flex;
+  gap: 100px;
+}
+
+.footer-offer {
+  max-width: 27.8125rem;
+color: rgb(255, 255, 255);
+font-family: 'Jost';
+font-size: 18px;
+font-weight: 600;
+line-height: 26px;
+text-transform: uppercase;
+margin: 0;
+}
+
+.input-form-wrapper {
+  max-width: 35.625rem;
+  display: flex;
+  gap: 1.25rem;
+}
+.input-email {
+  width: 25.625rem;
+  height: 3.3125rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: rgb(255, 255, 255);
+font-family: 'Jost';
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+padding-left: 30px;
+}
+
+.input-email::placeholder {
+color: rgb(255, 255, 255);
+font-family: 'Jost';
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+}
+
+.footer-form-button {
+width: 140px;
+height: 53px;
+border: none;
+border-radius: 5px;
+background: rgb(255, 255, 255);
+color: rgb(111, 115, 238);
+font-family:'Jost';
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0%;
+}
+
+.footer-bottom-content {
+  max-width: 69.375rem;
+  margin: auto;
+  display: flex;
+  
+}
+
+.menu-wrapper-second {
+  margin-left: 8rem;
+}
+
+.menu-wrapper-third {
+  margin-left: 7rem;
+}
+
+.footer-menu-title {
+color: rgb(40, 39, 57);
+font-family: 'Jost';
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+}
+
+.footer-menu-item {
+  list-style: none;
+  margin-bottom: 0.6rem;
+}
+
+.footer-menu-list {
+  padding-left: 0;
+}
+
+.footer-menu-link {
+color: rgb(93, 108, 123);
+font-family: Jost;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-decoration: none;
+}
+
+.footer-menu-column-2 {
+  columns: 6.25rem auto;
+  min-width: 15.875rem;
+
+}
+
+.contacts-wrapper {
+  display: flex;
+  gap: 45px;
+}
+
+.contacts-item-title {
+color: rgb(40, 39, 57);
+font-family: 'Jost';
+font-size: 12px;
+font-weight: 400;
+line-height: 17px;
+margin-top: 0;
+margin-bottom: 0.4rem;
+}
+
+.footer-phone {
+color: rgb(40, 39, 57);
+font-family: Jost;
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+text-decoration: none;
+}
+
+.work-time {
+color: rgb(93, 108, 123);
+font-family: 'Jost';
+font-size: 12px;
+font-weight: 400;
+line-height: 17px;
+}
+
+.footer-call {
+color: rgb(111, 115, 238);
+font-family: 'Jost';
+font-size: 12px;
+font-weight: 400;
+line-height: 17px;
+text-decoration: none;
+margin-left: 5.6rem;
+margin-top: 1.1rem;
+}
+
+.footer-bottom {
+  margin-bottom: 3.3rem;
+}
+
+.footer-hr {
+  max-width: 69.375rem;
+  height: 1px; 
+  color: solid rgb(93, 108, 123);
+}
+
