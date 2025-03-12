@@ -534,7 +534,7 @@ line-height: 16px;
 
 .price-area {
   display: flex;
-  gap: 25px;
+  gap: 24px;
   margin-bottom: 1.1rem;
   align-items: end;
 }
@@ -889,14 +889,7 @@ margin-top: 1.1rem;
 }
 
 .footer-bottom {
-  margin-bottom: 3.3rem;
-}
-
-.footer-hr {
-  max-width: 69.375rem;
-  height: 1px; 
-  color: solid rgb(93, 108, 123);
-  margin-bottom: 0;
+  margin-bottom: 3.2rem;
 }
 
 .footer-logo {
@@ -918,10 +911,12 @@ margin-top: 1.1rem;
 .footer-social {
   max-width: 69.375rem;
   margin: auto;
-  height: 108px;
+  height: 115px;
   display: flex;
   align-items: center;
   gap: 15.15rem;
+  border-top: 1px solid rgb(93, 108, 123, 0.15);
+  border-bottom: 1px solid rgb(93, 108, 123, 0.15);
 }
 
 .footer-social-item {
@@ -935,7 +930,11 @@ margin-top: 1.1rem;
 
 .footer-copyright {
   max-width: 69.375rem;
+  height: 4rem;
   margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer-copyright-links {
@@ -952,4 +951,27 @@ line-height: 17px;
 letter-spacing: 0%;
 text-align: left;
 text-decoration: none;
+}
+
+.footer-pay-wrapper{
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-chat-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-chat {
+color: rgb(40, 39, 57);
+font-family: 'Jost';
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+}
+
+.footer-messengers {
+  display: flex;
+  gap: 1rem;
 }
