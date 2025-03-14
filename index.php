@@ -642,12 +642,15 @@
     <div class="footer-top">
       <div class="footer-top-content">
         <p class="footer-offer">Оставьте свою почту и станьте первым, кто получит скидку на новые самокаты</p>
+
+        <form action="handler.php" method="POST" novalidate="novalidate"class="footer-form">
         <div class="input-form-wrapper">
           <div class="input-group">
             <input id="user-email" type="email" class="input-email" name="useremail" placeholder="Введите Ваш email" maxlength="30" required="">
           </div>
           <button class="button footer-form-button" type="submit">Подписаться</button>
         </div>
+        </form>
       </div>
     </div>
 
