@@ -42,12 +42,10 @@ html {
   flex-direction: column;
   color: #ffffff;
   height: 9.375rem;
-  
   left: 0;
   top: 0;
   z-index: 2;
   max-width: 90rem;
- 
 }
 
 .header-top {
@@ -268,6 +266,10 @@ text-decoration: none;
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.header-icon {
+  margin-right: 11px;
 }
 
 .location {
@@ -1273,9 +1275,8 @@ letter-spacing: 0%;
     margin: 0 .9375rem 0 .9375rem;
     max-width: 62rem;
   }
-  .header {
-    height: 31.8125rem;
-  }
+
+
   .header-top {
     display: none;
   }
@@ -1287,7 +1288,10 @@ letter-spacing: 0%;
   }
 
   .navbar {
-    height: 6.375rem;
+      height: 6.375rem;
+      position: fixed;
+      width: 100%;
+      background-color: #fff;
   }
   .header-bottom-icons {
     display: none;
@@ -1306,7 +1310,7 @@ letter-spacing: 0%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 2.3rem 2.5rem;;
+    padding: 2.2rem 2rem;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
   .navbar-light .mobile-menu-line {
@@ -1337,7 +1341,7 @@ letter-spacing: 0%;
     overflow-y: auto;
     z-index: 2;
     background-color: #fff;
-    padding-top: 5rem;
+    padding-top: 6.375rem;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -1354,7 +1358,7 @@ letter-spacing: 0%;
   .mobile-menu-link {
   text-decoration: none;
   color: rgb(41, 45, 51);
-  font-family: Noto Sans;
+  font-family: 'Jost';
   font-size: 14px;
   font-weight: 700;
   line-height: 160%;
@@ -1370,27 +1374,31 @@ letter-spacing: 0%;
   .mobile-submenu-link{
     text-decoration: none;
     color: rgb(130, 138, 153);
-  font-family: Noto Sans;
+  font-family: 'Jost';
   font-size: 14px;
   font-weight: 400;
   line-height: 160%;
   letter-spacing: 0%;
   text-align: left;
   }
-  .mobile-phone {
-  display: block;
-  color: rgb(41, 45, 51);
-  font-family: Noto Sans;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 160%;
-  letter-spacing: 0%;
-  text-align: left;
-  text-decoration-line: underline;
-  border-top: 1px solid rgb(235, 235, 240);
-  padding-top: 2rem;
-  margin-bottom: 1,5rem;
+  .mobile-phone-link {
+      color: rgb(40, 39, 57);
+      font-family: Jost;
+      font-size: 1.5rem;
+      font-weight: 600;
+      line-height: 17px;
+      text-decoration: none;
+      margin-bottom: 2rem;
   }
+  .mobile-nav-icons {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+}
+
+
   .mobile-info {
     display: flex;
     align-items: center;
@@ -1398,31 +1406,43 @@ letter-spacing: 0%;
     gap: 1rem;
     margin-bottom: 1rem;
   }
-  .mobile-info-address,
-  .mobile-info-email {
-  text-decoration: none;
-  font-style: normal;
-  color: rgb(41, 45, 51);
-  font-family: Noto Sans;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 160%;
-  letter-spacing: 0%;
-  text-align: left;
-  }
   
   .close-menu .mobile-menu-line:nth-child(2) {
     display: none;
   }
   .close-menu .mobile-menu-line:nth-child(1) {
-    transform: rotate(45deg) translateY(10px);
+    transform: rotate(45deg) translateY(15px);
   }
   .close-menu .mobile-menu-line:nth-child(3) {
-    transform: rotate(-45deg) translateY(-10px);
+    transform: rotate(-45deg) translateY(-14px);
   }
 
   .header {
-    margin: 0 .9375rem 1.875rem .9375rem;
+    margin: 6.375rem .9375rem 1.875rem .9375rem;
+    height: 31.8125rem;
+  }
+
+  .mobile-menu-icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+  }
+
+  .mobile-adress {
+    display: flex;
+    gap: 10px;
+    margin-top: 2rem;
+  }
+  .mobile-location {
+    text-decoration: none;
+    font-style: normal;
+    color: rgb(41, 45, 51);
+    font-family: 'Jost';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
   }
   
   .test-drive-picture {

@@ -31,3 +31,25 @@ document.addEventListener("keyup", (event) => {
     modal.classList.toggle("is-open");
   }
 });
+
+const mMenuToggle = document.querySelector(".mobile-menu-toggle");
+const menu = document.querySelector(".mobile-menu");
+
+const openMenu = (event) => {
+  menu.classList.add("is-open");
+  mMenuToggle.classList.add("close-menu");
+  document.body.style.overflow="hidden";
+};
+
+const closeMenu = (event) => {
+  menu.classList.remove("is-open");
+  mMenuToggle.classList.remove("close-menu");
+  document.body.style.overflow="";
+};
+
+mMenuToggle.addEventListener("click", (event) => {
+  event.preventDefault();
+  menu.classList.contains("is-open") ? closeMenu() : openMenu();
+ 
+});
+
