@@ -4,7 +4,7 @@
 
 html {
   font-family: 'Jost';
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 @font-face {
@@ -22,7 +22,9 @@ html {
 .mobile-menu {
   display: none;
 }
-
+.mobile-menu-toggle {
+  display: none;
+}
 
 .container {
   margin: 0 auto;
@@ -69,13 +71,15 @@ html {
   padding-left: 10.3125rem;
   
 }
-
+.header-link {
+  text-decoration: none;
+}
 .header-logo {
-width: 114px;
-height: 40px;
+width: 7.125rem;
+height: 2.5rem;
 color: rgb(40, 39, 57);
 font-family: 'Jost';
-font-size: 30px;
+font-size: 1.875rem;
 font-weight: 700;
 line-height: 43px;
 letter-spacing: 0%;
@@ -85,7 +89,7 @@ text-decoration: none;
 }
 
 .navbar-button {
-width: 114px;
+width: 7.125rem;
 height: 2.5rem;
 border: 1.5px solid rgb(111, 115, 238);
 border-radius: 5px;
@@ -97,12 +101,12 @@ margin-left: .9375rem;
 }
 
 .button-lines {
-  width: 13px;
+  width: .8125rem;
   display: flex;
   flex-direction: column;
   align-items: end;
   gap: 4px;
-  margin-left: 9px;
+  margin-left: .5625rem;
 }
 
 .button-line {
@@ -122,7 +126,7 @@ margin-left: .9375rem;
 .button-text {
   color: rgb(255, 255, 255);
   font-family: 'Jost';
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 23px;
 }
@@ -130,7 +134,7 @@ margin-left: .9375rem;
 
 .header-search {
   position: relative;
-  width: 603px;
+  width: 37.6875rem;
 }
 
 .search {
@@ -147,8 +151,8 @@ margin-left: .9375rem;
   position: absolute; 
   top: 0;
   right: 0px;
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 100%;
   border: none;
   background: rgb(111, 115, 238);
   border-radius: 0 5px 5px 0;
@@ -176,7 +180,7 @@ margin-left: .9375rem;
   text-decoration: none;
   color: rgb(93, 108, 123);
   font-family: 'Jost';
-  font-size: 12px;
+  font-size: .75rem;
   font-weight: 400;
   line-height: 17px;
   letter-spacing: 0%;
@@ -212,7 +216,7 @@ margin-left: .9375rem;
 .header-phone-link {
 color: rgb(40, 39, 57);
 font-family: Jost;
-font-size: 12px;
+font-size: .75rem;
 font-weight: 600;
 line-height: 17px;
 text-decoration: none;
@@ -225,8 +229,8 @@ text-decoration: none;
 
 .header {
   margin: 0rem 1.875rem 4.5rem 1.875rem;
-  height: 445px;
-  max-width: 1380px;
+  height: 27.8125rem;
+  max-width: 86.25rem;
   border-radius: 10px;
 }
 
@@ -260,7 +264,7 @@ text-decoration: none;
  }
 
 .header-subtitle {
-  width: 372px;
+  width: 23.25rem;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -272,7 +276,7 @@ text-decoration: none;
   width: 13.375rem;
 color: rgb(255, 255, 255);
 font-family: 'Jost';
-font-size: 12px;
+font-size: .75rem;
 font-weight: 400;
 line-height: 17px;
 text-decoration: none;
@@ -284,7 +288,7 @@ text-decoration: none;
   max-width: 8.9375rem;
 color: rgb(255, 255, 255);
 font-family: 'Jost';
-font-size: 14px;
+font-size: .875rem;
 font-weight: 400;
 line-height: 18px;
 }
@@ -303,7 +307,7 @@ line-height: 18px;
   max-width: 22.5625rem;
   color: rgb(255, 255, 255);
   font-family: 'Jost';
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   line-height: 29px;
   letter-spacing: 0.4px;
@@ -346,19 +350,19 @@ line-height: 18px;
 
 .header-features-text {
 color: rgb(255, 255, 255);
-font-family: Jost;
-font-size: 14px;
+font-family: 'Jost';
+font-size: .875rem;
 font-weight: 400;
 line-height: 18px;
 }
 
 .header-button {
-padding: 15px 40px 15px 40px;
+padding: .9375rem 2.5rem .9375rem 2.5rem;
 border-radius: 5px;
 border: none;
 color: rgb(111, 115, 238);
 font-family: 'Jost';
-font-size: 16px;
+font-size: 1rem;
 font-weight: 400;
 line-height: 23px;
  }
@@ -377,7 +381,7 @@ line-height: 23px;
  margin-top: 0;
 color: rgb(40, 39, 57);
 font-family: 'Jost';
-font-size: 35px;
+font-size: 2.1875rem;
 font-weight: 600;
 line-height: 51px;
 text-align: left;
@@ -388,13 +392,13 @@ padding-top: 1.8rem;
 .section-subtitle{
 color: rgb(40, 39, 57);
 font-family: 'Jost';
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: 400;
 line-height: 29px;
 }
 
 .test-drive-list{
-  font-size: 18px;
+  font-size: 1.125rem;
   list-style: none;
   padding-left: 0;
 }
@@ -410,8 +414,8 @@ line-height: 29px;
   position: absolute;
   top: 0;
   right: 0;
-  width: 515px;
-height: 422px;
+  width: 32.1875rem;
+height: 26.375rem;
   border-radius: 5px;
 }
 
@@ -423,8 +427,8 @@ height: 422px;
 
 .learn-drive-picture {
 border-radius: 5px;
-  width: 515px;
-height: 463px;
+  width: 32.1875rem;
+height: 28.9375rem;
 
 }
 
@@ -453,8 +457,8 @@ height: 463px;
 }
 
 .card {
-  width: 255px;
-  height: 492px;
+  width: 15.9375rem;
+  height: 30.75rem;
   border: 1.5px solid rgb(234, 235, 237);
 border-radius: 10px;
 }
@@ -476,16 +480,16 @@ border-radius: 10px;
  display: flex;
  align-items: end;
  justify-content: space-between;
- padding-left: 10px;
- padding-top: 10px;
+ padding-left: .625rem;
+ padding-top: .625rem;
 }
 
 .sale {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 41px;
-height: 25px;
+  width: 2.5625rem;
+height: 1.5625rem;
 border-radius: 5px;
 background: rgb(238, 104, 95);
 }
@@ -494,8 +498,8 @@ background: rgb(238, 104, 95);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 63px;
-height: 25px;
+  width: 3.9375rem;
+height: 1.5625rem;
 border-radius: 5px;
 background: rgb(117, 209, 74);
 }
@@ -503,7 +507,7 @@ background: rgb(117, 209, 74);
 .sale-text {
   color: rgb(255, 255, 255);
 font-family: 'Jost';
-font-size: 12px;
+font-size: .75rem;
 font-weight: 400;
 line-height: 17px;
 text-transform: uppercase;
@@ -512,7 +516,7 @@ text-transform: uppercase;
 .new-text {
   color: rgb(255, 255, 255);
 font-family: 'Jost';
-font-size: 12px;
+font-size: .75rem;
 font-weight: 400;
 line-height: 17px;
 }
@@ -525,7 +529,7 @@ line-height: 17px;
 .card-title {
   color: rgb(40, 39, 57);
 font-family: 'Jost';
-font-size: 18px;
+font-size: 1.125rem;
 font-weight: 600;
 line-height: 26px;
 margin-bottom: 1.4rem;
@@ -556,7 +560,7 @@ line-height: 16px;
 
 .price-area {
   display: flex;
-  gap: 24px;
+  gap: 1.5rem;
   margin-bottom: 1.1rem;
   align-items: end;
 }
@@ -564,13 +568,13 @@ line-height: 16px;
 .price-wrapper {
   display: flex;
   flex-direction: column;
-  max-width: 90px;
+  max-width: 5.625rem;
 }
 
 .old-price {
 color: rgb(93, 108, 123);
 font-family: 'Jost';
-font-size: 12px;
+font-size: .75rem;
 font-weight: 400;
 line-height: 17px;
 letter-spacing: 0%;
@@ -580,8 +584,8 @@ text-decoration-line: line-through;
 
 .price {
 color: rgb(40, 39, 57);
-font-family: Jost;
-font-size: 20px;
+font-family: 'Jost';
+font-size: 1.25rem;
 font-weight: 600;
 line-height: 29px;
 letter-spacing: 0%;
@@ -596,8 +600,8 @@ text-align: left;
 
 .price-icon-frame {
   border: 3px solid rgb(234, 235, 237);
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 55px;
   display: flex;
   align-items: center;
@@ -607,7 +611,7 @@ text-align: left;
 .card-button {
 color: rgb(255, 255, 255);
 font-family: Jost;
-font-size: 12px;
+font-size: .75rem;
 font-weight: 400;
 line-height: 17px;
 border-radius: 5px;
@@ -623,7 +627,7 @@ margin: 0 1.875rem 6.25rem 1.875rem;
 max-width: 86.25rem;
 border-radius: 10px;
 background: rgb(244, 247, 251);
-height: 445px;
+height: 27.8125rem;
 position: relative;
 }
 
@@ -640,7 +644,7 @@ margin: auto;
 .section-title-grey {
 color: rgb(40, 39, 57);
 font-family: 'Jost';
-font-size: 35px;
+font-size: 2.1875rem;
 font-weight: 600;
 line-height: 51px;
 text-transform: uppercase;
@@ -661,31 +665,31 @@ margin-bottom: 22px;
 .input-group-wrapper {
   max-width: 33.8125rem;
   display: flex;
-  gap: 20px;
+  gap: 1.25rem;
   margin-bottom: 1.2rem;
 }
 
 .cta-form-button {
   height: 3.3125rem;
 border-radius: 5px;
-padding: 15px 25px;
+padding: .9375rem 1.5625rem;
 background: rgb(111, 115, 238);
 border: none;
 color: rgb(255, 255, 255);
 font-family: 'Jost';
-font-size: 16px;
+font-size: 1rem;
 font-weight: 400;
 line-height: 23px;
 }
 
 .input-phone-mask {
   border-radius: 5px;
-  padding-right: 25px;
+  padding-right: 1.5625rem;
   width: 16.4375rem;
   height: 3.3125rem;
   outline: none;
   border: 1px solid rgb(234, 235, 237);
-  padding-left: 30px;
+  padding-left: 1.875rem;
 }
 
 .checkbox-wrapper {
@@ -700,7 +704,7 @@ line-height: 23px;
 
 .check-text {
 color: rgb(40, 39, 57);
-font-family: Jost;
+font-family: 'Jost';
 font-size: 12px;
 font-weight: 400;
 line-height: 14px;
@@ -765,7 +769,7 @@ margin-bottom: 1.9375rem;
   max-width: 27.8125rem;
 color: rgb(255, 255, 255);
 font-family: 'Jost';
-font-size: 18px;
+font-size: 1.125rem;
 font-weight: 600;
 line-height: 26px;
 text-transform: uppercase;
@@ -786,29 +790,29 @@ margin: 0;
   background: rgba(255, 255, 255, 0.2);
   color: rgb(255, 255, 255);
 font-family: 'Jost';
-font-size: 16px;
+font-size: 1rem;
 font-weight: 400;
 line-height: 23px;
-padding-left: 30px;
+padding-left: 1.875rem;
 }
 
 .input-email::placeholder {
 color: rgb(255, 255, 255);
 font-family: 'Jost';
-font-size: 16px;
+font-size: 1rem;
 font-weight: 400;
 line-height: 23px;
 }
 
 .footer-form-button {
-width: 140px;
-height: 53px;
+width: 8.75rem;
+height: 3.3125rem;
 border: none;
 border-radius: 5px;
 background: rgb(255, 255, 255);
 color: rgb(111, 115, 238);
 font-family:'Jost';
-font-size: 16px;
+font-size: 1rem;
 font-weight: 400;
 line-height: 23px;
 letter-spacing: 0%;
@@ -834,7 +838,7 @@ cursor: pointer;
 .footer-menu-title {
 color: rgb(40, 39, 57);
 font-family: 'Jost';
-font-size: 18px;
+font-size: 1.125rem;
 font-weight: 400;
 line-height: 26px;
 }
@@ -850,8 +854,8 @@ line-height: 26px;
 
 .footer-menu-link {
 color: rgb(93, 108, 123);
-font-family: Jost;
-font-size: 14px;
+font-family: 'Jost';
+font-size: .875rem;
 font-weight: 400;
 line-height: 20px;
 text-decoration: none;
@@ -865,7 +869,7 @@ text-decoration: none;
 
 .contacts-wrapper {
   display: flex;
-  gap: 45px;
+  gap: 2.8125rem;
 }
 
 .contacts-item {
@@ -875,7 +879,7 @@ text-decoration: none;
 .contacts-item-title {
 color: rgb(40, 39, 57);
 font-family: 'Jost';
-font-size: 12px;
+font-size: .75rem;
 font-weight: 400;
 line-height: 17px;
 margin-top: 0;
@@ -885,7 +889,7 @@ margin-bottom: 0.4rem;
 .footer-phone {
 color: rgb(40, 39, 57);
 font-family: 'Jost';
-font-size: 16px;
+font-size: 1rem;
 font-weight: 500;
 line-height: 23px;
 text-decoration: none;
@@ -894,7 +898,7 @@ text-decoration: none;
 .work-time {
 color: rgb(93, 108, 123);
 font-family: 'Jost';
-font-size: 12px;
+font-size: .75rem;
 font-weight: 400;
 line-height: 17px;
 }
@@ -915,13 +919,13 @@ margin-top: 1.1rem;
 }
 
 .footer-logo {
-  width: 114px;
-  height: 40px;
+  width: 7.125rem;
+  height: 2.5rem;
   color: rgb(40, 39, 57);
   font-family: 'Jost';
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 700;
-  line-height: 43px;
+  line-height: 2.6875rem;
   letter-spacing: 0%;
   text-align: left;
   text-transform: uppercase;
@@ -933,7 +937,7 @@ margin-top: 1.1rem;
 .footer-social {
   max-width: 69.375rem;
   margin: auto;
-  height: 115px;
+  height: 7.1875rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -961,13 +965,13 @@ margin-top: 1.1rem;
 
 .footer-copyright-links {
   display: flex;
-  gap: 44px;
+  gap: 2.75rem;
 }
 
 .footer-copy-link {
   color: rgb(93, 108, 123);
 font-family: 'Jost';
-font-size: 12px;
+font-size: .75rem;
 font-weight: 400;
 line-height: 17px;
 letter-spacing: 0%;
@@ -988,7 +992,7 @@ text-decoration: none;
 .footer-chat {
 color: rgb(40, 39, 57);
 font-family: 'Jost';
-font-size: 14px;
+font-size: .875rem;
 font-weight: 400;
 line-height: 20px;
 }
@@ -1040,7 +1044,7 @@ transition: transform 0.3s, opacity 0.3s;
   margin-top: 0;
 color: rgb(40, 39, 57);
 font-family: 'Jost';
-font-size: 27px;
+font-size: 1.6875rem;
 font-weight: 600;
 line-height: 40px;
 text-align: left;
@@ -1062,12 +1066,12 @@ text-transform: uppercase;
 .modal-form-button {
   height: 3.3125rem;
 border-radius: 5px;
-padding: 15px 25px;
+padding: .9375rem 1.5625rem;
 background: rgb(111, 115, 238);
 border: none;
 color: rgb(255, 255, 255);
 font-family: 'Jost';
-font-size: 16px;
+font-size: 1rem;
 font-weight: 400;
 line-height: 23px;
 cursor: pointer;
@@ -1075,12 +1079,12 @@ cursor: pointer;
 
 .input-phone-mask {
   border-radius: 5px;
-  padding-right: 25px;
+  padding-right: 1.5625rem;
   width: 16.4375rem;
   height: 3.3125rem;
   outline: none;
   border: 1px solid rgb(234, 235, 237);
-  padding-left: 30px;
+  padding-left: 1.875rem;
 }
 
 .checkbox-modal-wrapper {
@@ -1095,8 +1099,8 @@ cursor: pointer;
 
 .check-text-modal {
 color: rgb(40, 39, 57);
-font-family: Jost;
-font-size: 12px;
+font-family: 'Jost';
+font-size: .75rem;
 font-weight: 400;
 line-height: 14px;
 letter-spacing: 0%;
@@ -1135,7 +1139,7 @@ letter-spacing: 0%;
   top: 45px;
   right: 58px;
   border-radius: 5px;
-  width: 340px;
+  width: 21.25rem;
 }
 
 .modal-close {
@@ -1149,9 +1153,25 @@ letter-spacing: 0%;
     margin-left: 2.5rem;
     max-width: 28.3125rem;
   }
+
+  .header-top {
+    padding-right: 5.3125rem;
+    padding-left: 5.3125rem;
+    
+  }
+  
+  .header-bottom {
+    padding-right: 5.3125rem;
+    padding-left: 5.3125rem;
+    
+  }
 }
 
 @media (max-width: 1200px) {
+
+  html {
+    font-size: .875rem;
+  }
   .header-content {
     padding-top: 1.5rem;
     padding-left: 2.5rem;
@@ -1162,32 +1182,37 @@ letter-spacing: 0%;
   }
   .header-search {
     position: relative;
-    width: 603px;
+    max-width: 37.6875rem;
     margin-left: 1rem;
 }
 
+.section {
+  margin: 0 .9375rem 0 .9375rem;
+  max-width: 70rem;
+}
+
 .section-title {
-  font-size: 29px;
+  font-size: 1.8125rem;
   padding-top: 0;
 }
 
 .section-title-grey {
   color: rgb(40, 39, 57);
   font-family: 'Jost';
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 .section-learn-driving {
   gap: 3rem;
 }
 
 .test-drive-picture {
-  width: 441px;
-  height: 357px;
+  width: 27.5625rem;
+  height: 22.3125rem;
 }
 
 .learn-drive-picture {
-  width: 486px;
-  height: 372px;
+  width: 30.375rem;
+  height: 23.25rem;
 }
 
 .cta-image {
@@ -1203,8 +1228,8 @@ letter-spacing: 0%;
 }
 
 .footer-top {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: .625rem;
+  padding-right: .625rem;
 }
 
 .footer-top-content {
@@ -1215,7 +1240,7 @@ letter-spacing: 0%;
 }
 
 .footer-bottom-content {
-  padding-left: 10px;
+  padding-left: .625rem;
 }
 
 .footer-offer {
@@ -1240,11 +1265,40 @@ letter-spacing: 0%;
 
 @media (max-width: 992px) {
 
+  html {
+    font-size: .75rem;
+  }
+
   .section {
     margin: 0 .9375rem 0 .9375rem;
     max-width: 62rem;
   }
-  
+  .header {
+    height: 31.8125rem;
+  }
+  .header-top {
+    display: none;
+  }
+
+  .header-bottom {
+    padding-right: .9375rem;
+    padding-left: .9375rem;
+    
+  }
+
+  .navbar {
+    height: 6.375rem;
+  }
+  .header-bottom-icons {
+    display: none;
+  }
+  .header-search {
+    display: none;
+  }
+
+  .header-logo {
+
+  }
 
   .mobile-menu-toggle {
     width: 80px;
@@ -1259,17 +1313,15 @@ letter-spacing: 0%;
     background-color: #333;
   }
   .mobile-menu-line {
-    height: 1px;
-    background-color: #fff;
+    height: 2px;
+    background-color: #000000;
     width: 100%;
     transition: transform 0.2s;
   }
   .mobile-menu-line:nth-child(2) {
     width: 80%;
   }
-  .navbar-button .button-text {
-    display: none;
-  }
+ 
   .navbar-button .button-icon {
     display: block;
     fill: #ffffff;
@@ -1369,7 +1421,10 @@ letter-spacing: 0%;
     transform: rotate(-45deg) translateY(-10px);
   }
 
-
+  .header {
+    margin: 0 .9375rem 1.875rem .9375rem;
+  }
+  
   .test-drive-picture {
     width: 389px;
     height: 329px;
@@ -1409,13 +1464,13 @@ letter-spacing: 0%;
 
   .footer-social {
     flex-wrap: wrap;
-    padding-left: 10px;
+    padding-left: .625rem;
 }
 
 
 .footer-copyright {
   flex-wrap: wrap;
-  padding-left: 10px;
+  padding-left: .625rem;
 }
 
 .footer-bottom-content {
@@ -1423,8 +1478,7 @@ letter-spacing: 0%;
 }
 
 .footer-phone {
- 
-  font-size: 12px;
+  font-size: .75rem;
 }
 
 }
@@ -1466,6 +1520,16 @@ flex-direction: column;
     width: 100%;
 }
 
+.header {
+  height: 36.8125rem;
+}
 
+.modal-picture {
+display: none;
+}
 
+.modal-dialog {
+  margin: auto;
+  width: 22.375rem;
+}
 }
