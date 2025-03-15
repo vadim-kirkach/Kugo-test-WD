@@ -147,8 +147,11 @@
       <span class="button-text">Каталог</span>
      </button>
 
-     <form class="header-search" method="get">
-      <input class="search" name="s" placeholder="Искать самокат KUGO" type="search">
+     <form class="header-search" method="POST">
+      <input class="search" 
+      name="search" 
+      placeholder="Искать самокат KUGO" 
+      type="search">
       <button class="search-button" type="submit">
         <svg class="search-icon" width="16px" height="16px">
           <use href="img/sprite.svg#search"></use>
@@ -831,12 +834,24 @@
       <p class="modal-form-title">Как с вами удобнее связаться?</p>
         <div class="input-modal-wrapper">
           <div class="input-group">
-            <input id="user-phone" type="tel" class="input-phone-mask" name="userphone" placeholder="+7 (_ _ _) _ _ - _ _ - _ _" maxlength="30" required="">
+            <input 
+            id="user-phone" 
+            type="tel" 
+            class="input-phone-mask" 
+            name="userphone" 
+            placeholder="+7 (_ _ _) _ _ - _ _ - _ _" 
+            maxlength="30" 
+            required="">
           </div>
           <button class="button modal-form-button" type="submit">Оформить предзаказ</button>
         </div>
         <div class="checkbox-modal-wrapper">
-          <input type="checkbox" id="agree-modal" name="agree-modal" class="check-input-modal" required="">
+          <input 
+          type="checkbox" 
+          id="agree-modal" 
+          name="agree-modal" 
+          class="check-input-modal" 
+          required="">
            <label class="check-text-modal" for="agree-modal">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и политикой конфиденциальности</label>
          </div>
       </form>
