@@ -1,17 +1,3 @@
-/*const modal = document.querySelector(".modal");
-const modalToggle = document.querySelectorAll("[data-toggle=modal]");
-const modalClose = document.querySelector(".modal-close");
-console.log(modalToggle);
-modalToggle.forEach((element) => {
-  element.addEventListener("click", (event) => {
-    event.preventDefault();
-    modal.classList.add("is-open");
-  });
-});
-modalClose.addEventListener("click", (event) => {
-  event.preventDefault();
-  modal.classList.remove("is-open");
-});*/
 
 const modal = document.querySelector(".modal");
 const modalDialog = document.querySelector(".modal-dialog");
@@ -53,3 +39,22 @@ mMenuToggle.addEventListener("click", (event) => {
  
 });
 
+const forms = document.querySelectorAll("form"); // собираем все формы
+forms.forEach((form) => {
+  const validation = new JustValidate(form, {
+    errorFieldCssClass: "is-invalid",
+  });
+  validation 
+  .addField("[name=useremail]", [
+    {
+      rule: 'required',
+      errorMessage: "Укажите email"
+    },
+  ])
+  .addField("[name=userphone]", [
+    {
+      rule: 'required',
+      errorMessage: "Укажите телефон"
+    },
+  ])
+});
