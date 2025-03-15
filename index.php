@@ -623,12 +623,24 @@
         <p class="section-subtitle-grey">Оставьте заявку, и менеджер подберет нужный самокат</p>
           <div class="input-group-wrapper">
             <div class="input-group">
-              <input id="user-phone" type="tel" class="input-phone-mask" name="userphone" placeholder="+7 (_ _ _) _ _ - _ _ - _ _" maxlength="30" required="">
+              <input 
+              id="user-phone" 
+              type="tel" 
+              class="input-phone-mask" 
+              name="userphone" 
+              placeholder="+7 (_ _ _) _ _ - _ _ - _ _" 
+              maxlength="30" 
+              required="">
             </div>
             <button class="button cta-form-button" type="submit">Оставить заявку на тест-драйв</button>
           </div>
           <div class="checkbox-wrapper">
-            <input type="checkbox" id="agree" name="agree" class="check-input" required="">
+            <input 
+            type="checkbox" 
+            id="agree" 
+            name="agree" 
+            class="check-input" 
+            required="">
              <label class="check-text" for="agree">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и политикой конфиденциальности</label>
            </div>
         </form>
@@ -646,7 +658,14 @@
         <form action="handler-two.php" method="POST" novalidate="novalidate"class="footer-form">
         <div class="input-form-wrapper">
           <div class="input-group">
-            <input id="user-email" type="email" class="input-email" name="useremail" placeholder="Введите Ваш email" maxlength="30" required="" >
+            <input 
+            id="user-email" 
+            type="email" 
+            class="input-email" 
+            name="useremail" 
+            placeholder="Введите Ваш email" 
+            maxlength="30" 
+            required="" >
           </div>
           <button class="button footer-form-button" type="submit">Подписаться</button>
         </div>
