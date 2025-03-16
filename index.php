@@ -265,6 +265,11 @@
   </section>
   
   <section class="section section-learn-driving">
+  <picture class="learn-drive-picture">
+              <source type="image/webp" srcset="./img/learn_img.webp">
+              <source type="image/png" srcset="./img/learn_img.png">
+              <img class="learn-drive-picture" src="./img/learn_img.png" alt="">
+        </picture>
     
     <div class="section-learn-content">
       <h2 class="section-title">Научим правильной<br>и безопасной езде в городе<br>вас или вашего ребенка</h2>
@@ -307,12 +312,7 @@
 
       </ul>
     </div>
-        <picture class="learn-drive-picture">
-              <source type="image/webp" srcset="./img/learn_img.webp">
-              <source type="image/png" srcset="./img/learn_img.png">
-              <img class="learn-drive-picture" src="./img/learn_img.png" alt="">
-        </picture>
-    
+       
   </section>
 
   <section class="section section-catalog">
