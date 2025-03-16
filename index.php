@@ -196,7 +196,7 @@
           <span class="work-time">Вт - Сб 10:00 - 20:00</span>
         </div>
         <h1 class="header-title">Запишитесь на бесплатный тест-драйв электросамокатов</h1>
-        <div class="header-text">в Москве без ограничения по времени</div>
+        <p class="header-text">в Москве без ограничения по времени</p>
         <div class="header-features">
 
           <div class="header-features-item">
@@ -205,7 +205,7 @@
                 <use href="img/sprite.svg#scooter"></use>
               </svg>
             </div>
-            <div class="header-features-text">Поймете, какая модель вам подходит</div>
+            <p class="header-features-text">Поймете, какая модель вам подходит</p>
           </div>
 
           <div class="header-features-item">
@@ -214,7 +214,7 @@
                 <use href="img/sprite.svg#flash"></use>
               </svg>
             </div>
-            <div class="header-features-text">Проверите лучшие самокаты в деле</div>
+            <p class="header-features-text">Проверите лучшие самокаты в деле</p>
           </div>
 
         </div>
@@ -260,7 +260,7 @@
   </section>
   
   <section class="section section-learn-driving">
-    <img src="./img/learn_img.png" alt="" class="learn-drive-picture">
+    
     <div class="section-learn-content">
       <h2 class="section-title">Научим правильной<br>и безопасной езде в городе<br>вас или вашего ребенка</h2>
       <span class="section-subtitle">На обучении специалист расскажет:</span>
@@ -302,6 +302,7 @@
 
       </ul>
     </div>
+    <img src="./img/learn_img.png" alt="" class="learn-drive-picture">
   </section>
 
   <section class="section section-catalog">
@@ -320,7 +321,7 @@
           <img src="./img/Scooter.png" alt="" class="card-image">
         </div>
         <div class="card-content">
-          <div class="card-title">Kugoo Kirin M4</div>
+          <p class="card-title">Kugoo Kirin M4</p>
           <div class="card-content-features">
 
            <div class="features-items-wrapper">
@@ -328,14 +329,14 @@
               <svg class="card-icon" width="20px" height="20px">
                 <use href="img/sprite.svg#butery"></use>
               </svg>
-              <div class="content-text">2000 mAh</div>
+              <p class="content-text">2000 mAh</p>
             </div>
 
             <div class="card-content-features-item">
               <svg class="card-icon" width="20px" height="20px">
                 <use href="img/sprite.svg#speed"></use>
               </svg>
-              <div class="content-text">60 км/ч</div>
+              <p class="content-text">60 км/ч</p>
             </div> 
           </div>
 
@@ -345,14 +346,14 @@
               <svg class="card-icon" width="20px" height="18px">
                 <use href="img/sprite.svg#flashG"></use>
               </svg>
-              <div class="content-text">1,2 л.с.</div>
+              <p class="content-text">1,2 л.с.</p>
             </div>
 
             <div class="card-content-features-item">
               <svg class="card-icon" width="20px" height="18px">
                 <use href="img/sprite.svg#Timer"></use>
               </svg>
-              <div class="content-text">5 часов</div>
+              <p class="content-text">5 часов</p>
             </div>
           </div>
 
@@ -398,7 +399,7 @@
           <img src="./img/Scooter.png" alt="" class="card-image">
         </div>
         <div class="card-content">
-          <div class="card-title">Kugoo Kirin M4</div>
+          <p class="card-title">Kugoo Kirin M4</p>
           <div class="card-content-features">
 
            <div class="features-items-wrapper">
@@ -406,14 +407,14 @@
               <svg class="card-icon" width="20px" height="20px">
                 <use href="img/sprite.svg#butery"></use>
               </svg>
-              <div class="content-text">2000 mAh</div>
+              <p class="content-text">2000 mAh</p>
             </div>
 
             <div class="card-content-features-item">
               <svg class="card-icon" width="20px" height="20px">
                 <use href="img/sprite.svg#speed"></use>
               </svg>
-              <div class="content-text">60 км/ч</div>
+              <p class="content-text">60 км/ч</p>
             </div> 
           </div>
 
@@ -423,14 +424,14 @@
               <svg class="card-icon" width="20px" height="18px">
                 <use href="img/sprite.svg#flashG"></use>
               </svg>
-              <div class="content-text">1,2 л.с.</div>
+              <p class="content-text">1,2 л.с.</p>
             </div>
 
             <div class="card-content-features-item">
               <svg class="card-icon" width="20px" height="18px">
                 <use href="img/sprite.svg#Timer"></use>
               </svg>
-              <div class="content-text">5 часов</div>
+              <p class="content-text">5 часов</p>
             </div>
           </div>
 
@@ -476,7 +477,7 @@
           <img src="./img/Scooter.png" alt="" class="card-image">
         </div>
         <div class="card-content">
-          <div class="card-title">Kugoo Kirin M4</div>
+          <p class="card-title">Kugoo Kirin M4</p>
           <div class="card-content-features">
 
            <div class="features-items-wrapper">
@@ -484,14 +485,14 @@
               <svg class="card-icon" width="20px" height="20px">
                 <use href="img/sprite.svg#butery"></use>
               </svg>
-              <div class="content-text">2000 mAh</div>
+              <p class="content-text">2000 mAh</p>
             </div>
 
             <div class="card-content-features-item">
               <svg class="card-icon" width="20px" height="20px">
                 <use href="img/sprite.svg#speed"></use>
               </svg>
-              <div class="content-text">60 км/ч</div>
+              <p class="content-text">60 км/ч</p>
             </div> 
           </div>
 
@@ -501,14 +502,14 @@
               <svg class="card-icon" width="20px" height="18px">
                 <use href="img/sprite.svg#flashG"></use>
               </svg>
-              <div class="content-text">1,2 л.с.</div>
+              <p class="content-text">1,2 л.с.</p>
             </div>
 
             <div class="card-content-features-item">
               <svg class="card-icon" width="20px" height="18px">
                 <use href="img/sprite.svg#Timer"></use>
               </svg>
-              <div class="content-text">5 часов</div>
+              <p class="content-text">5 часов</p>
             </div>
           </div>
 
@@ -554,7 +555,7 @@
           <img src="./img/Scooter.png" alt="" class="card-image">
         </div>
         <div class="card-content">
-          <div class="card-title">Kugoo Kirin M4</div>
+          <p class="card-title">Kugoo Kirin M4</p>
           <div class="card-content-features">
 
            <div class="features-items-wrapper">
@@ -562,14 +563,14 @@
               <svg class="card-icon" width="20px" height="20px">
                 <use href="img/sprite.svg#butery"></use>
               </svg>
-              <div class="content-text">2000 mAh</div>
+              <p class="content-text">2000 mAh</p>
             </div>
 
             <div class="card-content-features-item">
               <svg class="card-icon" width="20px" height="20px">
                 <use href="img/sprite.svg#speed"></use>
               </svg>
-              <div class="content-text">60 км/ч</div>
+              <p class="content-text">60 км/ч</p>
             </div> 
           </div>
 
@@ -579,14 +580,14 @@
               <svg class="card-icon" width="20px" height="18px">
                 <use href="img/sprite.svg#flashG"></use>
               </svg>
-              <div class="content-text">1,2 л.с.</div>
+              <p class="content-text">1,2 л.с.</p>
             </div>
 
             <div class="card-content-features-item">
               <svg class="card-icon" width="20px" height="18px">
                 <use href="img/sprite.svg#Timer"></use>
               </svg>
-              <div class="content-text">5 часов</div>
+              <p class="content-text">5 часов</p>
             </div>
           </div>
 
@@ -849,7 +850,7 @@
           <input 
           type="checkbox" 
           id="agree-modal" 
-          name="agree-modal" 
+          name="agreemodal" 
           class="check-input-modal" 
           required="">
            <label class="check-text-modal" for="agree-modal">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и политикой конфиденциальности</label>

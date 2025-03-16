@@ -45,7 +45,7 @@ forms.forEach((form) => {
     errorFieldCssClass: "is-invalid",
   });
   validation 
-  .addField("[name=email]", [
+  .addField("[name=useremail]", [
     {
       rule: 'required',
       errorMessage: "Укажите email"
@@ -56,7 +56,7 @@ forms.forEach((form) => {
       errorMessage: "Максимально 30 символов"
     },
   ])
-  .addField("[name=phone]", [
+  .addField("[name=userphone]", [
     {
       rule: 'required',
       errorMessage: "Укажите телефон"
@@ -76,7 +76,7 @@ forms.forEach((form) => {
       rule: 'required',
     },
   ])
-  .addField("[name=agree-modal]", [
+  .addField("[name=agreemodal]", [
     {
       rule: 'required',
       errorMessage: "Укажите согласие"
