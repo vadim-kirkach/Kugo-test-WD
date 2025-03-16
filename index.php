@@ -256,7 +256,12 @@
           </li>
       </ul>
     </div>
-    <img src="./img/sec_practice.png" alt="" class="test-drive-picture">
+        <picture class="test-drive-picture">
+              <source type="image/webp" srcset="./img/sec_practice.webp">
+              <source type="image/png" srcset="./img/sec_practice.png">
+              <img class="test-drive-picture" src="./img/sec_practice.png" alt="">
+        </picture>
+    
   </section>
   
   <section class="section section-learn-driving">
@@ -302,7 +307,12 @@
 
       </ul>
     </div>
-    <img src="./img/learn_img.png" alt="" class="learn-drive-picture">
+        <picture class="learn-drive-picture">
+              <source type="image/webp" srcset="./img/learn_img.webp">
+              <source type="image/png" srcset="./img/learn_img.png">
+              <img class="learn-drive-picture" src="./img/learn_img.png" alt="">
+        </picture>
+    
   </section>
 
   <section class="section section-catalog">
@@ -318,7 +328,13 @@
               <use href="img/sprite.svg#weight"></use>
             </svg>
           </div>
-          <img src="./img/Scooter.png" alt="" class="card-image">
+
+          <picture class="card-image">
+              <source type="image/webp" srcset="./img/Scooter.webp">
+              <source type="image/png" srcset="./img/Scooter.png">
+              <img class="card-image" src="./img/Scooter.png" alt="">
+          </picture>
+
         </div>
         <div class="card-content">
           <p class="card-title">Kugoo Kirin M4</p>
@@ -396,7 +412,11 @@
               <use href="img/sprite.svg#weight"></use>
             </svg>
           </div>
-          <img src="./img/Scooter.png" alt="" class="card-image">
+          <picture class="card-image">
+              <source type="image/webp" srcset="./img/Scooter.webp">
+              <source type="image/png" srcset="./img/Scooter.png">
+              <img class="card-image" src="./img/Scooter.png" alt="">
+          </picture>
         </div>
         <div class="card-content">
           <p class="card-title">Kugoo Kirin M4</p>
@@ -474,7 +494,11 @@
               <use href="img/sprite.svg#weight"></use>
             </svg>
           </div>
-          <img src="./img/Scooter.png" alt="" class="card-image">
+          <picture class="card-image">
+              <source type="image/webp" srcset="./img/Scooter.webp">
+              <source type="image/png" srcset="./img/Scooter.png">
+              <img class="card-image" src="./img/Scooter.png" alt="">
+          </picture>
         </div>
         <div class="card-content">
           <p class="card-title">Kugoo Kirin M4</p>
@@ -552,7 +576,11 @@
               <use href="img/sprite.svg#weight"></use>
             </svg>
           </div>
-          <img src="./img/Scooter.png" alt="" class="card-image">
+          <picture class="card-image">
+              <source type="image/webp" srcset="./img/Scooter.webp">
+              <source type="image/png" srcset="./img/Scooter.png">
+              <img class="card-image" src="./img/Scooter.png" alt="">
+          </picture>
         </div>
         <div class="card-content">
           <p class="card-title">Kugoo Kirin M4</p>
@@ -650,8 +678,10 @@
         </form>
         
       </div>
-      <img src="./img/Cta_picture.png" alt="" class="cta-image">
+  
+      <img class="cta-image" src="./img/Cta_picture.png" alt="">
     </div>
+   
   </section>
 
   <footer class="footer">

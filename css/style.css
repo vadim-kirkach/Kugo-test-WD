@@ -220,11 +220,6 @@ line-height: 17px;
 text-decoration: none;
 }
 
-
-.no-webp .header-image {
-  background-image: url("../");
-}
-
 .header {
   margin: 0rem 1.875rem 4.5rem 1.875rem;
   height: 27.8125rem;
@@ -232,8 +227,12 @@ text-decoration: none;
   border-radius: 10px;
 }
 
-.header-image {
+.no-webp .header-image {
   background-image: url("../img/header_bg.png");
+}
+
+.header-image {
+  background-image: url("../img/header_bg.webp");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
