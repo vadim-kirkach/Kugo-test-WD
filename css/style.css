@@ -312,7 +312,8 @@ line-height: 18px;
   font-weight: 400;
   line-height: 29px;
   letter-spacing: 0.4px;
-  margin-bottom: 2rem;
+  margin-bottom: 1.2rem;
+  margin-top: 0;
  }
 
  .header-features {
@@ -322,7 +323,7 @@ line-height: 18px;
   list-style: none;
   color: #fff;
   position: relative;
-  margin-bottom: 2.3rem;
+  margin-bottom: 1.6rem;
   gap: 48px;
  }
 
@@ -459,9 +460,10 @@ height: 28.9375rem;
 
 .card {
   width: 255px;
-  height: 492px;
+  /*height: 492px;*/
   border: 1.5px solid rgb(234, 235, 237);
 border-radius: 10px;
+padding-bottom: 1.3rem;
 }
 
 .card-picture {
@@ -553,6 +555,8 @@ font-family: 'Roboto';
 font-size: 14px;
 font-weight: 400;
 line-height: 16px;
+margin-bottom: 0;
+margin-top: 0;
 }
 
 .card-icon {
@@ -1213,8 +1217,10 @@ letter-spacing: 0%;
 }
 
 .learn-drive-picture {
-  max-width: 32.375rem;
+  max-width: 27.375rem;
   height: 23.25rem;
+  display: flex;
+  margin: auto;
 }
 
 .cta-image {
@@ -1222,6 +1228,11 @@ letter-spacing: 0%;
   bottom: 0;
   right: 14px;
 }
+
+.catalog-wrapper {
+  width: 100%;
+  justify-content: space-between;
+  }
 
 .header-title {
   max-width: 33.25rem;
@@ -1300,9 +1311,11 @@ letter-spacing: 0%;
     display: none;
   }
 
-  .header-logo {
-
+  .navbar-button {
+    width: 7.125rem;
+    height: 3.2rem;
   }
+
 
   .mobile-menu-toggle {
     width: 80px;
@@ -1313,7 +1326,7 @@ letter-spacing: 0%;
     padding: 2.2rem 2rem;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
-  .navbar-light .mobile-menu-line {
+  .mobile-menu-line {
     background-color: #333;
   }
   .mobile-menu-line {
@@ -1481,8 +1494,9 @@ letter-spacing: 0%;
     margin-bottom: 3rem;
   }
   .catalog-wrapper {
-  width: 100%;
+  /*width: 100%;*/
   justify-content: space-around;
+  max-width: 45.375rem;
   }
 
   
@@ -1494,7 +1508,9 @@ letter-spacing: 0%;
     flex-wrap: wrap;
     padding-left: .625rem;
 }
-
+.menu-wrapper-first {
+  margin-left: 1rem;
+}
 
 .footer-copyright {
   flex-wrap: wrap;
@@ -1514,7 +1530,10 @@ letter-spacing: 0%;
 @media (max-width: 768px) {
   .test-drive-picture {
     position: relative;
-    
+    max-width: 27.375rem;
+    height: 25.25rem;
+    display: flex;
+    margin: auto;
   }
 
   .section-learn-driving {
@@ -1524,15 +1543,7 @@ letter-spacing: 0%;
     flex-direction: column;
 }
 
-.footer-top {
-  width: 100%;
-  height: 15rem;
-}
-
-.footer-top-content {
-flex-direction: column;
-}
-
+  
 .footer-logo {
   margin-right: 0;
 }
@@ -1614,5 +1625,23 @@ display: none;
   border-radius: 10px;
   background: linear-gradient(73.78deg, rgb(111, 115, 238) 36.368%, rgba(111, 115, 238, 0) 97.018%);
 }
+
+.section-title {
+  font-size: 18px;
+}
+
+.section-title-grey { 
+  font-size: 18px;
+}
+
+.footer-top{
+  width: 100%;
+  height: 15rem;
+}
+
+.footer-top-content {
+flex-direction: column;
+}
+
 
 }
