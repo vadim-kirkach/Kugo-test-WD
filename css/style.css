@@ -1493,16 +1493,16 @@ letter-spacing: 0%;
     .catalog-wrapper {
         /* width: 100%;
         justify-content: space-around;
-        max-width: 22.375rem;
+        max-width: 22.375rem; 45.375rem
     }*/
   .section-catalog {
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 3rem;
   }
   .catalog-wrapper {
-  /*width: 100%;*/
+
   justify-content: space-around;
-  max-width: 45.375rem;
+  max-width: 100%;
   }
 
   
@@ -1645,10 +1645,17 @@ display: none;
 
 .section-title {
   font-size: 18px;
+  line-height: 35px;
+}
+
+.section-title-catalog {
+  line-height: 35px;
+  font-size: 18px;
 }
 
 .section-title-grey { 
   font-size: 18px;
+  line-height: 35px;
 }
 
 .section-practice {
