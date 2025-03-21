@@ -193,7 +193,7 @@
             </svg>
             Восточно-Кругликовская улица, 86
           </a>
-          <span class="work-time">Вт - Сб 10:00 - 20:00</span>
+          <span class="work-time-header">Вт - Сб 10:00 - 20:00</span>
         </div>
         <h1 class="header-title">Запишитесь на бесплатный тест-драйв электросамокатов</h1>
         <p class="header-text">в Москве без ограничения по времени</p>
