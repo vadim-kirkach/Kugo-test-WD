@@ -76,6 +76,17 @@ forms.forEach((form) => {
       rule: 'required',
     },
   ])
+  .addField("[name=userphonemodal]", [
+    {
+      rule: 'required',
+      errorMessage: "Укажите телефон"
+    },
+    {
+      rule: 'maxLength',
+      value: 30,
+      errorMessage: "Максимально 30 символов"
+    },
+  ])
   .addField("[name=agreemodal]", [
     {
       rule: 'required',

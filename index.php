@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -78,15 +78,13 @@
     </ul>
     <a href="tel:+78005055461" class="mobile-phone-link">+7 (800) 505-54-61</a>
   
-    <div class="mobile-adress">
-      <a class="mobile-location">
-        Восточно-Кругликовская улица, 86
-      </a>
-      <span class="work-time">Вт - Сб 10:00 - 20:00</span>
-    </div>
-    </div>
-
-  </div>
+        <div class="mobile-adress">
+          <a class="mobile-location">
+            Восточно-Кругликовская улица, 86
+             </a>
+          <span class="work-time">Вт - Сб 10:00 - 20:00</span>
+        </div>
+</div>
 
 
 
@@ -140,9 +138,9 @@
     <a href="./" class="header-link"><span class="header-logo">KUGOO</span></a>
       <button class="navbar-button">
         <div class="button-lines">
-          <div class="button-line"></div>
-          <div class="button-line"></div>
-          <div class="button-line"></div>
+          <span class="button-line"></span>
+          <span class="button-line"></span>
+          <span class="button-line"></span>
         </div>
       <span class="button-text">Каталог</span>
      </button>
@@ -159,7 +157,7 @@
       </button>
      </form>
 
-     <li class="header-bottom-icons">
+     <div class="header-bottom-icons">
       <a href="./" class="header-nav-icon">
         <svg class="header-top-icon" width="20px" height="20px">
           <use href="img/sprite.svg#weight"></use>
@@ -176,7 +174,7 @@
         </svg>
       <span class="icon-text">Корзина</span> </a>
 
-    </li>
+    </div>
 
   </div>
      
@@ -672,7 +670,7 @@
             id="agree" 
             name="agree" 
             class="check-input" 
-            required="">
+            required>
              <label class="check-text" for="agree">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и политикой конфиденциальности</label>
            </div>
         </form>
@@ -689,7 +687,7 @@
       <div class="footer-top-content">
         <p class="footer-offer">Оставьте свою почту и станьте первым, кто получит скидку на новые самокаты</p>
 
-        <form action="handler-two.php" method="POST" novalidate="novalidate"class="footer-form">
+        <form action="handler-two.php" method="POST" novalidate="novalidate" class="footer-form">
         <div class="input-form-wrapper">
           <div class="input-group">
             <input 
@@ -699,7 +697,7 @@
             name="useremail" 
             placeholder="Введите Ваш email" 
             maxlength="30" 
-            required="" >
+            required >
           </div>
           <button class="button footer-form-button" type="submit">Подписаться</button>
         </div>
@@ -866,10 +864,10 @@
         <div class="input-modal-wrapper">
           <div class="input-group">
             <input 
-            id="user-phone" 
+            id="user-phone-modal" 
             type="tel" 
             class="input-phone-mask" 
-            name="userphone" 
+            name="userphonemodal" 
             placeholder="+7 (_ _ _) _ _ - _ _ - _ _" 
             maxlength="30" 
             required="">
@@ -882,7 +880,7 @@
           id="agree-modal" 
           name="agreemodal" 
           class="check-input-modal" 
-          required="">
+          required>
            <label class="check-text-modal" for="agree-modal">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и политикой конфиденциальности</label>
          </div>
       </form>
