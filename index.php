@@ -137,11 +137,11 @@
     </a>
     <a href="./" class="header-link"><span class="header-logo">KUGOO</span></a>
       <button class="navbar-button">
-        <div class="button-lines">
+        <span class="button-lines">
           <span class="button-line"></span>
           <span class="button-line"></span>
           <span class="button-line"></span>
-        </div>
+        </span>
       <span class="button-text">Каталог</span>
      </button>
 
