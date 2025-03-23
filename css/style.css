@@ -1635,6 +1635,10 @@ display: none;
   width: 22.375rem;
 }
 
+.modal-text {
+  padding-bottom: 2rem;
+}
+
 .header-image {
   background-image: url(../img/header_bg.png);
   
