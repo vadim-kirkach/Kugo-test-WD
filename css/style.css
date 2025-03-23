@@ -1040,12 +1040,14 @@ line-height: 20px;
 .modal-dialog {
 margin: auto;
 width: 49.375rem;
+height: 37rem;
 padding: 3rem 3.5625rem 2.8125rem 2.5rem;
 background-color:#fff;
 position: relative;
 transform: translateY(-30%);
 opacity: 0;
 transition: transform 0.3s, opacity 0.3s;
+border-radius: 5px;
 }
 
 .modal-title {
@@ -1053,7 +1055,7 @@ transition: transform 0.3s, opacity 0.3s;
   margin-top: 0;
 color: rgb(40, 39, 57);
 font-family: 'Jost';
-font-size: 1.6875rem;
+font-size: 1.5rem;
 font-weight: 600;
 line-height: 40px;
 text-align: left;
@@ -1062,6 +1064,9 @@ text-transform: uppercase;
 
 .modal-text {
   max-width: 16.25rem;
+  font-family: 'Jost';
+font-size: .875rem;
+padding-bottom: 4rem;
 }
 
 .input-modal-wrapper {
@@ -1070,6 +1075,11 @@ text-transform: uppercase;
   flex-direction: column;
   gap: 20px;
   margin-bottom: 1.2rem;
+}
+
+.modal-form-title {
+  font-family: 'Jost';
+font-size: .75rem;
 }
 
 .modal-form-button {
@@ -1149,6 +1159,13 @@ letter-spacing: 0%;
   right: 58px;
   border-radius: 5px;
   width: 21.25rem;
+  height: 31.0625rem;
+}
+
+.modal-picture-1 {
+  border-radius: 5px;
+  width: 21.25rem;
+  height: 31.0625rem;
 }
 
 .modal-close {

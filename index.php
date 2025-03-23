@@ -870,7 +870,7 @@
             name="userphonemodal" 
             placeholder="+7 (_ _ _) _ _ - _ _ - _ _" 
             maxlength="30" 
-            required="">
+            required >
           </div>
           <button class="button modal-form-button" type="submit">Оформить предзаказ</button>
         </div>
@@ -880,11 +880,16 @@
           id="agree-modal" 
           name="agreemodal" 
           class="check-input-modal" 
-          required>
+          required >
            <label class="check-text-modal" for="agree-modal">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и политикой конфиденциальности</label>
          </div>
       </form>
-      <img src="./img/modal.png" alt="" class="modal-picture">
+      
+      <picture class="modal-picture">
+              <source type="image/webp" srcset="./img/modal.webp">
+              <source type="image/png" srcset="./img/modal.png">
+              <img class="modal-picture-1" src="./img/modal.png" alt="">
+        </picture>
     </div>
   </div>
 
